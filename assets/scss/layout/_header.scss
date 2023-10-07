@@ -1,0 +1,95 @@
+@import "../abstracts/color";
+.header {
+    height: 124px;
+    width: 100%;
+    border: 1px solid #C3D4E966;
+    display: flex;
+    align-items: center;
+    padding: 0 32px 0 60px;
+    justify-content: space-between;
+    &__left {
+        display: flex;
+        align-items: center;
+        &__search {
+            margin-left: 64px;
+            .search {
+                position: absolute;
+                top: 53px;
+                left: 292px;
+                font-size: 20px;
+                color: #596780;
+                &:hover {
+                    cursor: pointer;
+                    color: #39455a;
+                }
+            }
+            .sliders {
+                position: absolute;
+                top: 53px;
+                left: 720px;
+                font-size: 20px;
+                color: #596780;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            &>input {
+                height: 44px;
+                width: 492px;
+                border-radius: 70px;
+                padding-left: 64px;
+                padding-right: 60px;
+                font-size: 14px;
+                border: 1px solid #C3D4E966;
+            }
+        }
+    }
+    &__left h1 {
+        color: $blue;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    &__left__logo {
+        width: 148px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+    }
+    &__right {
+        width: 236px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        &>i {
+            font-size: 11px;
+            color: #FF4423;
+            position: absolute;
+            top: 2px;
+            left: 85px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        &>img {
+            height: 44px;
+            width: 44px;
+            border-radius: 90px;
+        }
+        &>div {
+            height: 44px;
+            width: 44px;
+            display: flex;
+            align-items: center;
+            &>i {
+                font-size: 24px;
+                color: $grey;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        
+    }
+}

@@ -1,5 +1,16 @@
-@import "./base/reset" , "base/typography" , "pages/home/home" , "pages/detail/detail" , "layout/header", "abstracts/color", "layout/footer", "layout/main";
+@import "./base/reset" ,
+ "base/typography" ,
+  "pages/home/home" , 
+  "pages/detail/detail" ,
+   "layout/header",
+    "abstracts/color",
+     "layout/footer", 
+     "layout/main",
+     "layout/detailmain";
+
 
 html{
     scroll-behavior: smooth;
   }
+
+ 

@@ -1,13 +1,4 @@
-@import "./base/reset" ,
- "base/typography" ,
-  "pages/home/home" , 
-  "pages/detail/detail" ,
-   "layout/header",
-    "abstracts/color",
-     "layout/footer", 
-     "layout/main",
-     "layout/detailmain";
-
+@import "./base/reset" , "base/typography" , "pages/home/home" , "pages/detail/detail" , "layout/header", "abstracts/color", "layout/footer", "layout/main", "layout/home_main", "layout/detailmain";
 
 html{
     scroll-behavior: smooth;

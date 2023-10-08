@@ -164,7 +164,7 @@
 }
 .detail__right__right__button{
     border-radius: 10px;
-    &>button {
+    &>a>button {
         width: 140px;
         height: 56px;
         border-radius: 5px;
@@ -172,6 +172,9 @@
         color: white;
         font-weight: 600;
         border: none;
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 .detail__right__right__span{
@@ -287,4 +290,23 @@
     font-weight: 600;
     line-height: 30px;
 }    
+.detail>i {
+    font-size: 30px;
+    display: none;
+}
+@media only screen and (max-width: 1250px) {
+    .detail__left {
+        display: none;
+    }
+    .detail {
+        justify-content: end;
+    }
+    .detail>i {
+        display: block;
+        position: absolute;
+        left: 10px;
+    }
+}
+@media only screen and (max-width: 1055px) {
 
+}
